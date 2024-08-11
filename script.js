@@ -387,6 +387,7 @@ class FireExplosion extends Explosion{
       context.shadowOffsetY = 2;
       context.shadowColor = "black";
       context.font = this.fontSize + "px" + this.fontFamily;
+      
       //score
       context.fillText("score: " + this.game.score, 20, 40);
       // timer
